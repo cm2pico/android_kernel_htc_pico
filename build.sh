@@ -6,7 +6,7 @@ echo "Making config"
 make msm7627a_defconfig
 
 # Set kernel name in Phone Settings > Kernel Version
-export KBUILD_BUILD_VERSION="cyanogenmod-cm2pico#1-testkeys"
+export KBUILD_BUILD_VERSION="cm2pico-cm7"
 
 echo "Making the zImage-the real deal"
 make -j16
