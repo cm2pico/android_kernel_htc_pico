@@ -30,7 +30,7 @@ echo "Stripping Modules"
 
 echo "Make CWM-flashable zip"
 cd output 
-zip cm7-kernel-update.zip boot.img META-INF/com/google/android/updater-script META-INF/com/google/android/update-binary system/lib/modules/bcm4330.ko  system/lib/modules/kineto_gan.ko system/lib/modules/cifs.ko system/etc/init.d/93zram system/bin/compcache system/bin/handle_compcache system/bin/zram_stats
+zip cm7-kernel-update.zip boot.img META-INF/com/google/android/updater-script META-INF/com/google/android/update-binary system/lib/modules/bcm4330.ko  system/lib/modules/kineto_gan.ko system/lib/modules/cifs.ko system/etc/init.d/93zram system/bin/compcache system/bin/handle_compcache system/bin/zram_stats system/bin/turbo
 cd ../../
 mv boot.img-tools/output/cm7-kernel-update.zip auto-sign
 

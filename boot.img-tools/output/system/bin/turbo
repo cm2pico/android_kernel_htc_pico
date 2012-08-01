@@ -1,0 +1,11 @@
+#!/system/bin/sh
+#written by sakindia123
+echo " ***** Cranium Rom Turbo-Booster***** "
+sync;
+sleep 1
+echo "3" > /proc/sys/vm/drop_caches;
+echo "1" > /proc/sys/vm/drop_caches;
+sleep 1
+echo "** Your Phone has Been Turbo Boosted ** ";
+echo "** Stay Away From task managers!! ** ";
+

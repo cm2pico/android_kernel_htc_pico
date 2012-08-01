@@ -8,11 +8,11 @@ set_perm(0, 0, 0777, "/system/bin/compcache");
 set_perm(0, 0, 0777, "/system/bin/handle_compcache");
 set_perm(0, 0, 0777, "/system/bin/zram_stats");
 set_perm(0, 0, 0777, "/system/etc/init.d/93zram");
+set_perm(0, 0, 0777, "/system/bin/turbo");
 show_progress(0.2, 0);
 assert(package_extract_file("boot.img", "/tmp/boot.img"),
        write_raw_image("/tmp/boot.img", "boot"),
        delete("/tmp/boot.img"));
 show_progress(0.2, 10);
-ui_print("Wiping Bootloader hehe ");
 ui_print("Done.Now reboot");
 unmount("/system");
